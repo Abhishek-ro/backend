@@ -28,35 +28,6 @@ connectDB()
     console.log(err)
 })
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ;(async ()=>{
 //     try{
 //         await mongoose.connect(`${process.env.DataBase_Connection}/${DB_Name}`)
@@ -65,4 +36,3 @@ connectDB()
 //         console.error("Error:",error)
 //     }
 // })()
-
