@@ -2,6 +2,9 @@
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
 import express from "express";
+import {app} from './app.js'
+
+
 
 
 dotenv.config({
@@ -10,8 +13,6 @@ dotenv.config({
 
 
 
-
-const app = express()
 
 
 
